@@ -19,3 +19,13 @@ function nameSurname(text) {
 
 console.log(nameSurname.call(obj1, 'lox'));
 console.log(nameSurname.call(obj2, 'lox'));
+
+function foo(a, b, c) {
+   [].forEach.call(arguments, function (value) {
+       console.log(value);
+   });
+   [].forEach.call(arguments,  (value) => {
+       console.log(value);
+   })
+}
+foo(1, 2, 3);
