@@ -1,0 +1,43 @@
+.form {
+  margin-top: 20px;
+}
+.formItem {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  >div:nth-child(1) {
+    width: 160px;
+  }
+  >div:nth-child(2) {
+    input {
+      text-decoration: none;
+      width: 120px;
+    }
+    select {
+      text-decoration: none;
+      width: 128px;
+    }
+  }
+}
+.formSwitcher {
+  display: none;
+  border: 1px solid darkblue;
+  box-sizing: border-box;
+  margin-top: 50px;
+  width: 350px;
+  padding-left: 10px;
+}
+.formSwitcherItem {
+  margin-top: 15px;
+  display: flex;
+  >div:nth-child(1) {
+    width: 160px;
+  }
+  >div:nth-child(2) {
+    input {
+      text-decoration: none;
+      width: 120px;
+    }
+  }
+}
